@@ -14,7 +14,7 @@ padding: 0;
    border: 20px green;
    overflow: hidden;
    min-height: 250px;
-   position: relative;
+   position: absolute;
    
    /* min-width: 250px; */
    
@@ -30,7 +30,7 @@ padding: 0;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
-    font-size: 40px;
+    font-size: 25px;
   }
   
   /* Change the color of links on hover */
@@ -69,6 +69,8 @@ float: right;
   background-color: #111; /* Black*/
   overflow-x: hidden; /* Disable horizontal scroll */
   padding-top: 60px; /* Place content 60px from the top */
+  color: white;
+  
   transition: 0.5s; /* 0.5 second transition effect to slide in the sidenav */
 }
 
@@ -78,8 +80,17 @@ float: right;
   text-decoration: none;
   font-size: 25px;
   color: #818181;
+  color: #f1f1f1;
   display: block;
   transition: 0.3s;
+
+
+  /* float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 40px; */
 }
 
 /* When you mouse over the navigation links, change their color */
@@ -106,4 +117,13 @@ float: right;
 @media screen and (max-height: 450px) {
   .sidenav {padding-top: 15px;}
   .sidenav a {font-size: 18px;}
+}
+
+
+
+.MidSearchBar{
+  position: absolute;
+  min-height: 400px;
+  nav-down: 400;
+  background-image:url('/images/city.jpg');
 }
